@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>شوروم مجازی | LAVENZA</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="showroom.css">
+</head>
+
+<body>
+
+    <div class="showroom-loader" id="showroomLoader">
+        <div class="loader-logo">LAVENZA</div>
+        <div class="loader-line"></div>
+        <p>در حال آماده‌سازی فضای نمایشگاه...</p>
+    </div>
+
+    <header class="showroom-header">
+
+        <a href="index.html" class="brand">
+            <span class="brand-name">LAVENZA</span>
+            <span class="brand-caption">LIVING EXPERIENCE</span>
+        </a>
+
+        <div class="header-center">
+            <span class="live-indicator"></span>
+            <span>شوروم مجازی</span>
+        </div>
+
+        <div class="header-actions">
+            <a href="index.html" class="back-link">بازگشت به فروشگاه</a>
+        </div>
+
+    </header>
+
+
+    <main class="showroom-main">
+
+        <section class="showroom-intro">
+
+            <div>
+                <span class="eyebrow">AN INTERACTIVE EXPERIENCE</span>
+
+                <h1>
+                    به دنیای
+                    <span>LAVENZA</span>
+                    خوش آمدید
+                </h1>
+
+                <p>
+                    در فضای ما قدم بزنید، جزئیات را کشف کنید
+                    و مبلمان مورد علاقه‌تان را از نزدیک ببینید.
+                </p>
+            </div>
+
+            <div class="intro-number">
+                <span>01</span>
+                <small>VIRTUAL SHOWROOM</small>
+            </div>
+
+        </section>
+
+
+        <section class="showroom-workspace">
+
+            <div class="scene-toolbar">
+
+                <div class="scene-title">
+                    <span class="scene-dot"></span>
+                    <span>فضای نشیمن</span>
+                </div>
+
+                <div class="scene-controls">
+
+                    <button id="viewFront" class="view-btn active">
+                        نمای اصلی
+                    </button>
+
+                    <button id="viewLeft" class="view-btn">
+                        نمای چپ
+                    </button>
+
+                    <button id="viewRight" class="view-btn">
+                        نمای راست
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="showroom-scene" id="showroomScene">
+
+                <div class="scene-ceiling"></div>
+
+                <div class="scene-back-wall">
+
+                    <div class="wall-panel panel-one"></div>
+                    <div class="wall-panel panel-two"></div>
+                    <div class="wall-panel panel-three"></div>
+
+                    <div class="wall-art">
+                        <span>L</span>
+                        <small>THE ART OF LIVING</small>
+                    </div>
+
+                    <div class="wall-light light-one"></div>
+                    <div class="wall-light light-two"></div>
+
+                </div>
+
+
+                <div class="scene-side-wall"></div>
+
+
+                <div class="scene-window">
+                    <div class="window-frame">
+                        <div class="window-view"></div>
+                    </div>
+                    <div class="window-curtain"></div>
+                </div>
+
+
+                <div class="scene-floor"></div>
+
+
+                <div class="scene-rug"></div>
+
+
+                <div class="scene-furniture" id="sceneFurniture">
+
+                    <div class="plant plant-left">
+                        <div class="plant-leaves"></div>
+                        <div class="plant-pot"></div>
+                    </div>
+
+
+                    <div class="sofa-display product-hotspot"
+                         data-product="sofa-aria"
+                         tabindex="0"
+                         role="button"
+                         aria-label="مشاهده مبل آریا">
+
+<img src="images/sofa-aria-showroom.png" alt="مبل راحتی آریا">
+                        <span class="hotspot-dot"></span>
+
+                        <span class="hotspot-label">
+                            مبل راحتی آریا
+                        </span>
+
+                    </div>
+
+
+                    <div class="table-display product-hotspot"
+                         data-product="table-wood"
+                         tabindex="0"
+                         role="button"
+                         aria-label="مشاهده میز وود">
+
+<img src="images/table-wood-showroom.png" alt="میز جلو مبلی وود">
+                        <span class="hotspot-dot"></span>
+
+                        <span class="hotspot-label">
+                            میز جلو مبلی وود
+                        </span>
+
+                    </div>
+
+
+                    <div class="chair-display product-hotspot"
+                         data-product="chair-nordic"
+                         tabindex="0"
+                         role="button"
+                         aria-label="مشاهده صندلی نوردیک">
+
+<img src="images/chair-nordic-showroom.png" alt="صندلی نوردیک">
+                        <span class="hotspot-dot"></span>
+
+                        <span class="hotspot-label">
+                            صندلی نوردیک
+                        </span>
+
+                    </div>
+
+
+                    <div class="floor-lamp">
+                        <div class="lamp-shade"></div>
+                        <div class="lamp-stem"></div>
+                        <div class="lamp-base"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="scene-brand-mark">
+                    LAVENZA
+                </div>
+
+            </div>
+
+
+           
+            </div>
+
+        </section>
+
+
+        <section class="showroom-bottom">
+
+            <div class="bottom-copy">
+                <span class="eyebrow">DISCOVER YOUR STYLE</span>
+                <h2>جزئیات، تفاوت را می‌سازند.</h2>
+            </div>
+
+            <button class="explore-button" id="exploreProducts">
+                کشف محصولات
+                <span>←</span>
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <div class="product-popup" id="productPopup">
+
+        <button class="popup-close" id="popupClose">×</button>
+
+        <div class="popup-image">
+            <img id="popupImage" src="" alt="">
+        </div>
+
+        <div class="popup-info">
+            <span class="eyebrow">LAVENZA COLLECTION</span>
+            <h2 id="popupName">نام محصول</h2>
+            <p id="popupDescription"></p>
+            <strong id="popupPrice"></strong>
+
+            <button id="popupAddToCart" class="popup-cart-button">
+                افزودن به سبد خرید
+            </button>
+        </div>
+
+    </div>
+
+
+    <div class="showroom-toast" id="showroomToast"></div>
+
+
+    <script src="showroom.js"></script>
+
+</body>
+</html>
